@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Accounting Worker's Admin Dashboard",
-  description: "admin dashboard for accounting workers",
+  title: "Sales Worker's Admin Dashboard",
+  description: "Sales dashboard for accounting workers",
 };
 
 export default function RootLayout({ children }) {
