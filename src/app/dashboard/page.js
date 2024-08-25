@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import { Blocks, UsersRound } from 'lucide-react'
+import { Blocks, Handshake, UsersRound } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
@@ -17,6 +17,12 @@ const Dashboard = () => {
         <UsersRound />
           Workers 
         </Link>
+        
+        <Link href='/dashboard/partners' className='bg-white text-primary p-2 rounded-lg  flex items-center justify-evenly gap-2'>
+         <Handshake/>Partners
+        </Link>
+       
+        
       </div>
       </div>
     </div>

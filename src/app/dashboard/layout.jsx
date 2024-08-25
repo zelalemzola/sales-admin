@@ -6,8 +6,8 @@ import "@uploadthing/react/styles.css";
 
 
 export const metadata = {
-  title: "Accounting Worker's Admin Dashboard",
-  description: "accounting dashboard for home workers",
+  title: "Sales Worker's Admin Dashboard",
+  description: "Sales dashboard for home workers",
 };
 
 const layout = ({children}) => {
