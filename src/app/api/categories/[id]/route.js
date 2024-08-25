@@ -19,7 +19,7 @@ export async function PUT(request) {
 }
 
 export async function DELETE(request) {
-  const id = await request.nextUrl.searchParams.get('id');
+ const id = request.nextUrl.pathname.split('/').pop();
 
   try {
     // Delete all businesses with the given category ID
